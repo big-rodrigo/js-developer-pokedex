@@ -1,7 +1,6 @@
 const id = new URLSearchParams(window.location.search).get("id");
 const url = 'https://pokeapi.co/api/v2/pokemon/' + Number(id);
 const root = document.querySelector('div.content');
-// const damageRelationsUrl = 'https://pokeapi.co/api/v2/type/';
 
 (async () => {
     const pokemonDetail = await (await fetch(url)).json();
