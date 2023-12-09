@@ -1,0 +1,91 @@
+* {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #f4f6fa;
+}
+
+html, body {
+    min-height: 98vh;
+}
+
+body {
+    background-color: #f4f6fa;
+}
+
+.detail {
+    height: 100%;
+}
+
+.content {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #444;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+                rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+                rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+                rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.sprite {
+    max-width: 200px;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: #f4f6fa;
+    color: black;
+    padding: 8px 16px;
+    font-size: 1.5rem;
+    border-radius: 6px;
+}
+
+.type {
+    display: inline-block;
+    padding: 2px 16px;
+    border-radius: 24px;
+    background-color: #f4f6fa;
+    color: black;
+}
+
+.type + .type {
+    margin-left: 8px;
+}
+
+.grid {
+    margin: 64px 0 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-elem {
+    margin: 0 32px;
+    border: 1px solid #f4f6fa;
+    padding: 16px 24px;
+    border-radius: 8px;
+}
+
+.grid-header {
+    margin: 0 0 16px 0;
+    padding: 8px 32px;
+    font-size: 1.25rem;
+    border-radius: 4px;
+    text-align: center;
+    color: black;
+}
+
+.forte {
+    background-color: lightgreen;
+}
+
+.fraco {
+    background-color: lightcoral;
+}
